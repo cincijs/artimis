@@ -1,0 +1,14 @@
+[
+  {
+    "id"          : 23,
+    "name"        : "Camera 23",
+    "state"       : "Kentucky",
+    "description" : "I-71/I-75 Lower Deck (NB) of Brent Spence Bridge",
+    "mileMarker"  : "191.1",
+    "roadName"    : "I-71,I-75",
+    "location"    : "I-75 N at exit 27",
+    "latitude"    : 39.090767,
+    "longitude"   : -84.521921,
+    "imageUrl"    : "http://cmhimg01.dot.state.oh.us/images/artimis/CCTV023.jpg"
+  }
+]

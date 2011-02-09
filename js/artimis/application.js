@@ -1,4 +1,5 @@
+cameraController = new CameraController();
 $(function() {
-	window.cameras = new Cameras;
-	window.cameras.fetch();
+	Backbone.history.start();
+	return cameraController.index();	
 });

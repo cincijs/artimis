@@ -20,15 +20,11 @@
 <body lang="en">
   <!-- templates -->
   <script id="camera" type="text/html">
-    <li id="{{ htmlId }}"><span class="name">{{ name }}</span> <span>{{ description }} ({{ coordinates }})</span></li>
+    <li id="{{ id }}"><span class="name">{{ name }}</span> <span>{{ description }} ({{ coordinates }})</span></li>
   </script>
 
   <div id="container">
-    <header></header>
-
-    <div id="main" role="main"></div>
-
-    <footer></footer>
+    <ul id="cameras" role="main"></ul>
   </div> <!--! end of #container -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.js"></script>
   <script>!window.jQuery && document.write(unescape('%3Cscript src="js/libs/jquery-1.5.0.js"%3E%3C/script%3E'))</script>
@@ -37,6 +33,8 @@
   <script src="js/mylibs/ICanHaz.js"></script>
   <script src="js/artimis/models/camera.js"></script>
   <script src="js/artimis/collections/cameras.js"></script>
+  <script src="js/artimis/views/camera_index.js"></script>
+  <script src="js/artimis/controllers/cameras.js"></script>
   <script src="js/artimis/application.js"></script>
   <!--[if lt IE 7 ]>
     <script src="js/libs/dd_belatedpng.js"></script>
